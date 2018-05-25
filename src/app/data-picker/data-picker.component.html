@@ -1,0 +1,6 @@
+<label for="dataSelector">Data set</label>
+<select [(ngModel)]="currentValue" (change)="onChange($event)" id="dataSelector">
+  <ng-container *ngFor="let option of valuesList">
+    <option [ngValue]="option">{{option}}</option>
+  </ng-container>
+</select>
