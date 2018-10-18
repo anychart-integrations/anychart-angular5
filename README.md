@@ -7,22 +7,22 @@ This example shows how to use Anychart with Angular5.
 To run this sample:
 
 Clone the repository from github.com:
-```
+```bash
 $ git clone git@github.com:anychart-integrations/anychart-angular5.git
 ```
 
 Navigate to the repository folder:
-```
+```bash
 $ cd anychart-angular5
 ```
 
 Install all project requirements:
- ```
+ ```bash
  npm install
  ```
  
 Since that, the demo can be launched in your browser:
- ```
+ ```bash
  npm run start
  ```
    
